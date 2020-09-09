@@ -74,6 +74,29 @@ ul li {
 
 /* Search */
 #search-w-icons {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+.searchbar {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 3em;
+    width: 582px;
+    max-width: 584px;
+}
+
+.searchbtn {
+
+}
+
+.luckybtn {
 
 }
 
