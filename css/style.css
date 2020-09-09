@@ -63,6 +63,16 @@ ul li {
     padding: .3em .8em;
 }
 
+#loginbtn:hover {
+    color: black;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 20px;
+    border-color: 1px #4285f4;
+    background-color: #cecece;
+    padding: .3em .8em;
+}
+
 /* Body */
 #img {
     display: flex;
@@ -103,6 +113,13 @@ ul li {
     padding: .2em;
 }
 
+.searchbtn:hover {
+    color: #222222;
+    border: #5c5c5e;
+    margin: auto .5em;
+    padding: .2em;
+}
+
 .luckybtn {
     color: #5c5c5e;
     margin: auto .5em;
@@ -112,9 +129,22 @@ ul li {
 /* Footer */
 #bottom-nav {
     position: fixed;
+    font-size: larger;
+    height: 2.5em;
     bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1em;
+    background-color: #e6e6e6;
+}
+
+#bottom-nav a {
+        color: #5c5c5e;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+#bottom-nav a:hover {
+    text-decoration: underline;
 }
