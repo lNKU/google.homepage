@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css?family=Product+Sans";
+
+html {
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+    font-family: 'Product Sans', 'Inconsolata';
+}
+
+body {
+    height: auto;
+    width: auto;
+}
+
+nav {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul li {
+    display: inline;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 1em;
+}
+
+.grid {
+    display: grid;
+    grid-auto-columns: auto;
+}
+
+/* Header */
+#top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.nav-left {
+    justify-content: space-evenly;
+    margin-left: 2em;
+}
+
+.nav-right {
+    justify-content: space-evenly;
+    margin-right: 2em;
+}
+
+#loginbtn {
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 20px;
+    border: 1px rgb(66, 133, 244);
+    background-color: rgb(66, 133, 244);
+    padding: .3em .8em;
+}
+
+/* Body */
+#img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13.2em 15em 0 15em;
+}
+
+/* Search */
+#search-w-icons {
+
+}
+
+/* Footer */
+
