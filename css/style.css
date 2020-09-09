@@ -91,19 +91,22 @@ ul li {
     max-width: 584px;
 }
 
-#searchbtns{
+#searchbtns {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    
 }
 
 .searchbtn {
-
+    color: #5c5c5e;
+    margin: auto .5em;
+    padding: .2em;
 }
 
 .luckybtn {
-
+    color: #5c5c5e;
+    margin: auto .5em;
+    padding: .2em;
 }
 
 /* Footer */
