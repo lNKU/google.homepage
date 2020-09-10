@@ -88,6 +88,20 @@ ul li {
     margin: 2em auto;
 }
 
+#icon-ctn {
+    position: relative;
+    top: 1.3em;
+    left: 2.7em;
+    opacity: 0.45;
+    background-color: transparent;
+    background-image: url(/assets/magnifying-glass.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    z-index: 2;
+}
+
 .searchbar {
     align-items: center;
     background: #fff;
@@ -95,10 +109,15 @@ ul li {
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
-    z-index: 3;
+    z-index: 1;
     height: 3.4em;
     width: 582px;
     max-width: 584px;
+    padding-left: 40px;
+}
+
+.searchbar:hover {
+    box-shadow: 2px 2px 5px #00000026;
 }
 
 #searchbtns {
@@ -115,7 +134,6 @@ ul li {
 
 .searchbtn:hover {
     color: #222222;
-    border: #5c5c5e;
     margin: auto .5em;
     padding: .2em;
 }
@@ -126,8 +144,15 @@ ul li {
     padding: .2em;
 }
 
+.luckybtn:hover {
+    color: #222222;
+    margin: auto .5em;
+    padding: .2em;
+}
+
 /* Footer */
 #bottom-nav {
+    border: #222222;
     position: fixed;
     font-size: larger;
     height: 2.5em;
